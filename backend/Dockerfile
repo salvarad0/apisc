@@ -17,7 +17,7 @@ WORKDIR /app
 COPY . .
 
 # Compila la aplicación
-RUN npm run build
+#RUN npm run build
 
 # Expone el puerto en el que la aplicación se ejecutará
 EXPOSE 3000
